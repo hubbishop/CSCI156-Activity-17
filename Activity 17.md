@@ -5,7 +5,7 @@ class SS:
     class InvalidSocial(ValueError):
         pass
     def __init(self):
-        self.social = self.getss
+        self.social = self.getsocial
     
     def validatess(self):
         check that self.ss is valid

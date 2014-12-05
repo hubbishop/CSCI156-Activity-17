@@ -15,7 +15,7 @@ class Employee:
             self.first = first.capitalize()
             self.start = start
             self.pay_rate = pay_rate
-            self.social = social
+            self.social = SS(social)
 
     def __str__(self):
         return 'Employee' + ' ' + self.last + ' ' + self.first + ' ' + ' began working in the year' + ' ' + self.start + ' '+ 'makes' + ' ' + str(self.pay_rate) + ' '+ 'an hour' +\

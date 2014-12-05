@@ -5,8 +5,11 @@ class SS():
     class InvalidSocial(ValueError):
         pass
 
-    def __init__(self):
-        self.getsocial()
+    def __init__(self,ss = None):
+        if ss is None:
+            self.getsocial()
+        else:
+            self.ss = ss
 
     def __str__(self):
         return self.ss
@@ -32,8 +35,6 @@ class SS():
             raise self.InvalidSocial
         elif int(aaa) == 666:
             raise self.InvalidSocial
-        else:
-            return aaa, gg, ssss
 
     def getsocial(self):
         self.ss = input("social security: ")

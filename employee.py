@@ -19,4 +19,4 @@ class Employee:
 
     def __str__(self):
         return 'Employee' + ' ' + self.last + ' ' + self.first + ' ' + ' began working in the year' + ' ' + self.start + ' '+ 'makes' + ' ' + str(self.pay_rate) + ' '+ 'an hour' +\
-        ' ' + ' and the social security number is' + ' ' + str(self.social)
+        ' ' + ' and the social security number ' + ' ' + str(self.social)

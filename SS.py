@@ -36,7 +36,7 @@ class SS():
             return aaa, gg, ssss
 
     def getsocial(self):
-        self.ss = input("aaa, gg, ssss: ")
+        self.ss = input("social: ")
         print(self.ss)
         try:
             self.validatess()

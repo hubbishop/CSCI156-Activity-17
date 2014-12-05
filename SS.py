@@ -37,7 +37,7 @@ class SS():
             raise self.InvalidSocial
 
     def getsocial(self):
-        self.ss = input("social security: ")
+        self.ss = input("social security number: ")
         print(self.ss)
         try:
             self.validatess()
